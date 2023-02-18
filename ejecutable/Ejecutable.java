@@ -1,5 +1,7 @@
 package ejecutable;
 
+import javax.swing.JOptionPane;
+
 public class Ejecutable
 {
     public static void main(String[] args) 
@@ -10,7 +12,7 @@ public class Ejecutable
 
         x = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor del primer número: "));
         y = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor del segundo número: "));
-        x = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor del tercer número: "));
+        z = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor del tercer número: "));
 
         if (x > y && x > z) 
         {
