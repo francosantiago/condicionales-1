@@ -1,4 +1,4 @@
-package ejecutable;
+package ejecutable_1;
 
 import javax.swing.JOptionPane;
 
